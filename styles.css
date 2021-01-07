@@ -1,0 +1,247 @@
+/* 1st div Selma */
+.div1Selma {
+    background-image: url("design-assets/bgk-header.png");
+    color: white;
+    height: 650px;
+}
+
+
+/* nav bar */
+.navbar {
+    border: 1px solid green;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.navbar-right .nav-links {
+    display: inline-block;
+}
+
+.nav-links {
+    width: 700px;
+    display: flex;
+}
+
+.logosmall {
+    display: inline-flex;
+}
+
+
+.navbar a { /*selects all link (a) inside of a nav-bar*/
+    text-decoration: none;
+    padding: 0 2%;
+    color: white;
+}
+
+/* header in the first div */
+.header {
+    border: 10px solid green;
+    text-align: center;
+}
+
+/* 2nd div Tim */
+
+.ourstory {
+    background-color: White;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%; 
+    color: gray;
+}
+
+.ourstory:nth-child(*){
+    justify-items: center;
+}
+
+.logobig {
+    margin-right: 5%;
+    padding: 5%;
+}
+
+.some-text {
+    line-height: 1.5;
+}
+
+/* 3rd div Tim */
+
+.storywatchbutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("design-assets/bgk-middle.png");
+    Height: 500px;
+    color: white;
+}
+
+.play-image {
+    Height: 80px;
+    width: 80px;
+}
+
+.button {
+    border: 1px solid;
+    line-height: 2.5;
+    font-size: 1rem;
+    text-align: center;
+    color: blue;
+    background: white;
+    background-clip: border-box;
+    background-image: linear-gradient(to top left,
+                                      rgba(4, 94, 74, 0.2)),
+                                      rgba(26, 87, 179, 0.2) 30%,
+                                      rgba(37, 111, 145, 0.2);
+                                      
+}
+
+
+/* 4th div Giulia */
+body {
+    background-color: white;
+}
+
+h2, h4 {
+    font-family: 'Playfair Display', serif;
+}
+
+h3, p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.gridtext {
+    color: gray;
+}
+
+hr {
+    color: lightgrey;
+    width: 5%;
+    height: 1px;
+}
+
+.expertise {
+    text-align: center;
+    background-color: white;
+    margin: 10% 15%;
+}
+
+.gridexpertise {
+    margin-top: 5%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 70%;
+    height: 50%;
+    flex-flow: row wrap;
+    flex-grow: 1;
+    background-color: lightgrey;
+}
+
+.gridexpertise:nth-child(*){
+    background-color: white;
+    width: 33.2%;
+    height: 49%;
+}
+
+.smallsquares {
+    width: 33.2%;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 0.2%;
+}
+
+/* 5th div Selma */
+
+.div5Selma {
+    height: 700px;
+    width: 100%;
+    background-image: url("design-assets/bgk-middle.png");
+}
+/* 6th div Together */
+/* 7th div Giulia */
+.feet {
+    background-image: url("design-assets/bgk-footer.png");
+    width: 100%;
+    height: 30%;
+    opacity: 0,75;
+    color: #e7d9ea;
+    margin: 0;
+}
+
+.logosmall {
+    display: inline-flex;
+}
+
+#companyname {
+    background-clip: text;
+  -webkit-background-clip: text;
+    color: rgba(20,175,201,100);
+}
+
+.threecolumns {
+    display: inline-flex;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    justify-content: flex-start;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.foot {
+    justify-content: flex-start;
+    width: 70%;
+    align-items: flex-start;
+    margin: 1%;
+    color: #e7d9ea;
+}
+
+.area {
+    display: inline-flex;
+}
+
+textarea {
+    background-color: transparent;
+    border-color: white;
+    opacity: 0.75;
+    color: #e7d9ea;
+}
+
+.special {
+    background-color: white;
+    opacity: 0.75;
+    margin-left: 5%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.socials {
+    display: inline-block;
+    margin-top: 10%;
+}
+
+.ending {  
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: left;
+}
+
+.lastwords {
+    display: inline-block;
+    margin-right: 5%;
+}
+
+#copyright {
+    margin-left: 35%;
+}
+
+
+
+
+
