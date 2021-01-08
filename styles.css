@@ -8,10 +8,10 @@
 
 /* nav bar */
 .navbar {
-    border: 1px solid green;
     display: inline-flex;
     width: 100%;
     justify-content: space-around;
+    align-items: center;
 }
 
 .navbar-right .nav-links {
@@ -21,6 +21,7 @@
 .nav-links {
     width: 700px;
     display: flex;
+    align-content: center;
 }
 
 .logosmall {
@@ -34,10 +35,37 @@
     color: white;
 }
 
+#home {
+    color: #00e0d0;
+}
+
+.white-links:hover {
+    color: #00e0d0;
+}
+
 /* header in the first div */
 .header {
-    border: 10px solid green;
     text-align: center;
+    width: 60%;
+    margin: 10% auto;
+}
+
+#header-h1 {
+    padding: 0 0 20px;
+}
+
+#header-hr {
+    background-color: #00e0d0;
+    height: 2px;
+    border: none;
+}
+
+#header-p {
+    padding: 20px 0;
+}
+
+#first-div {
+    background-color: none;
 }
 
 /* 2nd div Tim */
@@ -84,18 +112,24 @@
 }
 
 .button {
-    border: 1px solid;
+    border: 1px solid #00e0d0;
+    color: #00e0d0;
     line-height: 2.5;
     font-size: 1rem;
     text-align: center;
-    color: blue;
+    background: transparent;
+    /* color: blue;
     background: white;
     background-clip: border-box;
     background-image: linear-gradient(to top left,
                                       rgba(4, 94, 74, 0.2)),
                                       rgba(26, 87, 179, 0.2) 30%,
-                                      rgba(37, 111, 145, 0.2);
+                                      rgba(37, 111, 145, 0.2); */
                                       
+}
+.button:hover {
+    background: #00e0d0;
+    color: white;
 }
 
 
@@ -117,9 +151,10 @@ h3, p {
 }
 
 hr {
-    color: lightgrey;
+    background-color: lightgrey;
     width: 5%;
-    height: 1px;
+    height: 2px;
+    border: none;
 }
 
 .expertise {
@@ -156,10 +191,36 @@ hr {
 /* 5th div Selma */
 
 .div5Selma {
-    height: 700px;
+    height: 650px;
     width: 100%;
-    background-image: url("design-assets/bgk-middle.png");
+    background-image: url("design-assets/bgk-header.png");
+    color: white;
+    text-align: center;
 }
+
+.meet-our-team {
+    padding: 10px;
+}
+
+.team-pic {
+    display: flex;
+    justify-content:center;
+    padding: 10px;
+}
+
+.team-details {
+    margin: 0 10px;
+    border: 1px solid white;
+}
+
+.we-are-hiring {
+    padding: 20px;
+}
+
+#become-part {
+    padding-bottom: 10px;
+}
+
 /* 6th div Together */
 /* 7th div Giulia */
 .feet {
